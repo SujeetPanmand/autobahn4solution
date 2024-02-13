@@ -56,3 +56,50 @@ body {
         display: none;
     }
  }
+
+
+ .bgContact {
+    background-image: url("./assets/home/Contact us/Hero.svg");
+    /* height: auto; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.contact-title {
+    font-size: 32px;
+    font-weight: 700;
+    color:
+        #000000;
+
+}
+
+.text-para {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+   
+    color: rgba(153, 153, 153, 1);
+
+}
+.bg-grey{
+    background-color: #FFFFFF; 
+    background: rgba(255, 255, 255, 0.75);
+    border-radius: 6px;
+}
+.bg-grey-form{
+    background-color: #3E4F59;
+    background: rgba(62, 79, 89, 0.50);
+    border-radius: 4px;
+}
+.button-color{
+background-color: #3E4F59;
+background: rgba(62, 79, 89, 1);
+}
+.bg-footer{
+    background-color: #3E4F59;
+    background: 
+    rgba(62, 79, 89, 1);
+}
