@@ -36,3 +36,23 @@ body {
     background: #3E4F59;
     opacity: 0.25;
 }
+
+.service-des {
+    left: 10%;
+    top: 67%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 830px) { 
+    .service-des {
+        left: 6%;
+        top: 49%;
+    }
+ }
+
+ /* Medium devices (phone, 557px) */
+@media (max-width: 557px) { 
+    .our-border::before {
+        display: none;
+    }
+ }
