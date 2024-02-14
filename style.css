@@ -8,55 +8,6 @@ body {
     background-color: #3E4F59 !important;
 }
 
-.bgBanner {
-    background-image: url("./assets/home/home-banner.svg");
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.our-border::before {
-    position: absolute;
-    width: 2px;
-    left: 52%;
-    transform: translate(-50%, -20%);
-    top: 38%;
-    height: 30%;
-    background-color: #575757;
-    opacity: 0.25;
-    content: "";
-}
-
-.text-border {
-    width: 50%;
-    height: 1px; 
-    position: relative; 
-    background: #3E4F59;
-    opacity: 0.25;
-}
-
-.service-des {
-    left: 10%;
-    top: 67%;
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 830px) { 
-    .service-des {
-        left: 6%;
-        top: 49%;
-    }
- }
-
- /* Medium devices (phone, 557px) */
-@media (max-width: 557px) { 
-    .our-border::before {
-        display: none;
-    }
- }
-
 .bg-footer{
     background: rgba(62, 79, 89);
 }
