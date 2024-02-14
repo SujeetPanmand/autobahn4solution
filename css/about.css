@@ -1,0 +1,28 @@
+.bgBannerAbout {
+    background-image: url("../assets/about/hero.svg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.our-border::before {
+    position: absolute;
+    width: 2px;
+    left: 52%;
+    transform: translate(-50%, -20%);
+    top: 38%;
+    height: 30%;
+    background-color: #575757;
+    opacity: 0.25;
+    content: "";
+}
+
+.text-border {
+    width: 50%;
+    height: 1px; 
+    position: relative; 
+    background: #3E4F59;
+    opacity: 0.25;
+}
