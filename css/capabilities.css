@@ -1,0 +1,50 @@
+.bgBanner {
+     background-image: url("../assets/home/Capabilities/Hero.svg");
+     height: 400px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+}
+
+/* .our-border::before {
+     position: absolute;
+     width: 2px;
+     left: 52%;
+     transform: translate(-50%, -20%);
+     top: 38%;
+     height: 30%;
+     background-color: #575757;
+     opacity: 0.25;
+     content: "";
+ } */
+.capabilities-text {
+     font-size: 40px;
+     font-weight: 700;
+     color: #FFFFFF;
+
+}
+
+.capabilities-header {
+     font-size: 32px;
+     font-weight: 600;
+     color: #000000;
+}
+
+.bg-light-grey {
+     background-color:
+          #F7F7F7;
+}
+
+.subtitle {
+     font-size: 32px;
+     font-weight: 600;
+     color: #000000;
+}
+
+.submenu-text {
+     font-size: 16px;
+     font-weight: 400;
+     color:
+          #000000;
+}
