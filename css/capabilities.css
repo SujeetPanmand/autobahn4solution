@@ -1,0 +1,39 @@
+.bgBanner {
+     background-image: url("../assets/capabilities/hero.svg");
+     height: 400px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     position: relative;
+}
+
+.capabilities-text {
+     font-size: 40px;
+     font-weight: 700;
+     color: #FFFFFF;
+
+}
+
+.capabilities-header {
+     font-size: 32px;
+     font-weight: 600;
+     color: #000000;
+}
+
+.bg-light-grey {
+     background-color:
+          #F7F7F7;
+}
+
+/* .subtitle {
+     font-size: 32px;
+     font-weight: 600;
+     color: #000000;
+} */
+
+/* .submenu-text {
+     font-size: 16px;
+     font-weight: 400;
+     color:
+          #000000;
+} */
