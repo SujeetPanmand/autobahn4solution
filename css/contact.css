@@ -1,14 +1,9 @@
-/* p {
-    color: #999;
-    font-size: 16px;
-} */
-
 .bg-grey{
     background: rgba(255, 255, 255, 0.75);
     border-radius: 6px;
 }
 
-.bgContact {
+.bg-contact {
     background-image: url("../assets/home/Contact us/Hero.svg");
     background-repeat: no-repeat;
     background-size: cover;
