@@ -11,3 +11,7 @@ body {
 .bg-footer{
     background: rgba(62, 79, 89);
 }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    text-decoration-line: underline;
+    font-weight: 500;
+}
