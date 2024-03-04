@@ -28,7 +28,7 @@ form.addEventListener("submit", (e) => {
   var message = formData.get("entry.1298951158");
 
   // if (!emptyRegex.test(name) || !nameRegex.test(name)) {
-  if (!emptyRegex.test(name)) {  
+  if (!emptyRegex.test(name)) {
     alert("Please enter valid name");
     return false;
   }
@@ -38,8 +38,8 @@ form.addEventListener("submit", (e) => {
     return false;
   }
 
-  if (!phoneNumberRegex.test(phoneNumber)) {
-    alert("Please enter valid phone number");
+  if ((!phoneNumberRegex.test(phoneNumber)) || ((phoneNumber.length) < 10)) {
+    alert("Please enter valid phone number minimum 10 digit number");
     return false;
   }
 
@@ -47,7 +47,7 @@ form.addEventListener("submit", (e) => {
     alert("Message field should not empty");
     return false;
   }
-  
+
   loaderElement.style.display = "block";
 
   form.submit();
@@ -69,7 +69,7 @@ function submitEnquiry() {
   var message = formData.get("entry.1298951158");
 
   // if (!emptyRegex.test(name) || !nameRegex.test(name)) {
-  if (!emptyRegex.test(name)) {  
+  if (!emptyRegex.test(name)) {
     alert("Please enter valid name");
     return false;
   }
