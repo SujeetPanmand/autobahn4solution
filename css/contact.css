@@ -10,7 +10,13 @@
     background-position: center;
     position: relative;
 }
+
 .bg-grey-form{
     background: rgba(62, 79, 89, 0.50);
     border-radius: 4px;
+}
+
+.hidden-iframe {
+    visibility: hidden;
+    height: 1px;
 }
