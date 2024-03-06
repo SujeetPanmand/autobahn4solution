@@ -38,6 +38,11 @@ form.addEventListener("submit", (e) => {
     return false;
   }
 
+  if (!emptyRegex.test(email)) {
+    alert("Please enter valid email");
+    return false;
+  }
+
   if (!emptyRegex.test(phoneNumber)) {
     alert("Please enter valid phone number");
     return false;
