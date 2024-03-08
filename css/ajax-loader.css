@@ -8,7 +8,7 @@
   /* animation: spin 2s linear infinite; */
   /*z-index: 999999 !important;*/
   background: rgba(255, 255, 255, 0.8)
-    url("http://myfuelcrm.com/public/frontend/default/images/ajax-loader.gif")
+    url("../assets/ajax-loader.gif")
     50% 50% no-repeat;
 }
 
